@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="education.vt.elearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+
+
+
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigation"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".getData"
+            android:label="@string/avl_name" />
+        <activity
+            android:name=".middle"
+            android:label="@string/middle_name" />
+        <activity
+            android:name=".listall1"
+            android:label="@string/pdf_name" />
+        <activity
+            android:name=".pdfview"
+            android:label="@string/pdf_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videoview"
+            android:label="@string/vid_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".pptview"
+            android:label="@string/ppt_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".docview"
+            android:label="@string/doc_name"
+            android:screenOrientation="portrait" />
+        <activity android:name=".notification" />
+        <activity android:name=".getAll" />
+        <activity
+            android:name=".middle1"
+            android:label="@string/middle1" />
+        <activity
+            android:name=".listfromsd"
+            android:label="@string/listfromsd_name" />
+        <activity
+            android:name=".Checkfile"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".videoservice2"
+            android:exported="true"
+            android:process=":ServiceProcess" />
+        <service
+            android:name=".videoservice"
+            android:exported="true"
+            android:process=":ServiceProcess" />
+
+        <activity
+            android:name=".playvideo"
+            android:screenOrientation="landscape"/>
+
+    </application>
+
+</manifest>

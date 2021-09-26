@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="education.vt.elearning.Download">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="--Enter Details--"
+                        android:textSize="25dp"
+                        android:textColor="#c10628"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+
+
+
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="85dp"
+                        android:layout_marginRight="44dp"
+                        android:layout_marginTop="50dp"/>
+
+                    <Spinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="85dp"
+                        android:layout_marginRight="44dp"
+                        android:layout_marginTop="30dp"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinner3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="85dp"
+                        android:layout_marginRight="44dp"
+                        android:layout_marginTop="30dp"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinner4"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="85dp"
+                        android:layout_marginRight="44dp"
+                        android:layout_marginTop="30dp"/>
+
+
+
+                    <Spinner
+                        android:id="@+id/spinner5"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="85dp"
+                        android:layout_marginRight="44dp"
+                        android:layout_marginTop="30dp"/>
+
+
+                    <Spinner
+                        android:id="@+id/spinner6"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="85dp"
+                        android:layout_marginRight="44dp"
+                        android:layout_marginTop="30dp"/>
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Search"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginRight="44dp"
+                        android:layout_marginTop="30dp"/>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+    </RelativeLayout>
+
+
+</FrameLayout>

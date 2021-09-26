@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adb"
+    tools:context="education.vt.elearning.Download">
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="194dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="241dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="338dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="385dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="291dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="445dp"
+        android:background="#d4f435"
+        android:text="Search"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="--Enter Details--"
+        android:textColor="#f2091c"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

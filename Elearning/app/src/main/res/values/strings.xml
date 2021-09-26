@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">E-Learning</string>
+    <string name="title_activity_navigation">E-Resource</string>
+    <string name="pdf_name">PDF</string>
+    <string name="vid_name">VIDEO</string>
+    <string name="doc_name">Documents</string>
+    <string name="ppt_name">PPTs</string>
+    <string name="middle1">Available Content</string>
+    <string name="listfromsd_name">Downloaded Files</string>
+    <string name="avl_name">Available Materials</string>
+    <string name="middle_name">Available Content</string>
+    <string name="down_name">Enter Details</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="buffering_string">videoview</string>
+    <string name="action_settings">Developers</string>
+    <string name="channel">Developers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabbed">tabbed</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
